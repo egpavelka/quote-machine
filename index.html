@@ -1,0 +1,31 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>egpavelka || quote generator</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+ <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body onload="quoteGeneration()">
+  <script src="scripts.js"></script>
+    <div class="container">
+  <div id="top">
+    <h1>dash of despair</h1>
+    <p>In which films and their makers bemoan the cult of image.</p>
+  </div>
+  <div id="quote">
+    <p id="quote-text"></p>
+      <p id="quote-attribute"><span id="quote-author"></span>
+      <br><span id="quote-source"></span></p>
+  </div>
+  <div id="buttons">
+    <button onclick="quoteGeneration()" type="button"><i class="material-icons">loop</i>  see more</button>
+    <button onclick="tweetIt()" type="button">tweet this  <i class="material-icons">chat_bubble_outline</i></button>
+  </div>
+    </div>
+</body>
+</html>
